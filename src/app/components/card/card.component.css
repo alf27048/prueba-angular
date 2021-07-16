@@ -1,0 +1,22 @@
+.card{
+    max-width: 200px;
+    background-color: papayawhip;
+    margin-left: 50px;
+    border-radius: 5%;
+}
+.imagen {
+    margin-left: 20px;
+    margin-top: 5px;    
+}
+.categ{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.titulo{
+    margin-left: 10px;
+    font-size: 25px;
+}
+.precio{
+    border-top: solid gray 1px;
+    padding: 3px;
+}
