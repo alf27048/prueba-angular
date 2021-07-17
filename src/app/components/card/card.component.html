@@ -1,8 +1,9 @@
 <div class="card">
-    <img src="\assets\images/patoruzito.jpg" alt="" class="imagen">
+    <img src="{{ imagen }}" alt="" class="imagen">
     <header>
-        <p class="categ">CATEGORIA</p>
-        <h2 class="titulo">PATURUZITO</h2>
+        <!-- El parrafo se entrega solo si se entrega el elemento categoria-->
+        <p *ngIf="categoria" class="categ">{{ categoria | uppercase }}</p>
+        <h2 class="titulo">{{ titulo }}</h2>
     </header>
-    <p class="precio">$20.000</p>
+    <p class="precio">{{ precio | currency: 'ARS' }}</p>
 </div>

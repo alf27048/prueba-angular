@@ -3,5 +3,14 @@
     [subtitle]="subtitle"
 >
 </app-title>
-<app-card></app-card>
+
+<div class="card-wrapper">
+    <app-card 
+        *ngFor="let card of cards"
+        [imagen]="card.imagen"
+        [categoria]="card.categoria"
+        [titulo]="card.titulo"
+        [precio]="card.precio"
+    ></app-card>
+</div>
 Hola mundo, simplifique este archivo :)
