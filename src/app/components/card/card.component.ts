@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class CardComponent implements OnInit {
 
   constructor() { }
-  @Input() imagen = "/assets/images/patoruzito.jpg";
+  @Input() imagen = "/assets/images/foto2.jpg";
   @Input() categoria?: string;
   @Input() titulo = "Esta es la aventura";
   @Input() precio = 123;

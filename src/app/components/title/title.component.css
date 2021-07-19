@@ -8,6 +8,7 @@ header {
 }
 h1 {
     color: orchid;
+    margin-bottom: 40px;
 }
 p {
     color: orangered;

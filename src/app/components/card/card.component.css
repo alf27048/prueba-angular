@@ -3,10 +3,16 @@
     background-color: papayawhip;
     margin-left: 50px;
     border-radius: 5%;
+    border: solid 1px grey;
 }
 .imagen {
-    margin-left: 20px;
-    margin-top: 5px;    
+   /* margin-left: 20px;*/
+    /*margin-top: 5px;*/
+    border-radius: 8px 8px 0 0;    
+}
+.card-info {
+    border-radius: 0 0 8px 8px;
+    background-color: white;
 }
 .categ{
     margin-left: 10px;

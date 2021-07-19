@@ -1,9 +1,11 @@
 <div class="card">
     <img src="{{ imagen }}" alt="" class="imagen">
-    <header>
-        <!-- El parrafo se entrega solo si se entrega el elemento categoria-->
-        <p *ngIf="categoria" class="categ">{{ categoria | uppercase }}</p>
-        <h2 class="titulo">{{ titulo }}</h2>
-    </header>
-    <p class="precio">{{ precio | currency: 'ARS' }}</p>
+    <div class="card-info">
+        <header>
+            <!-- El parrafo se entrega solo si se entrega el elemento categoria-->
+            <p *ngIf="categoria" class="categ">{{ categoria | uppercase }}</p>
+            <h2 class="titulo">{{ titulo }}</h2>
+        </header>
+        <p class="precio">{{ precio | currency: 'ARS' }}</p>
+    </div>    
 </div>
